@@ -77,7 +77,10 @@ import KathiJunction from './KathiJunction.jpeg'
 import ChaiOk from './ChaiOk.jpeg'
 import quench from './quench.jpeg'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d1970c0cfc5ede3d5dc7a94d3777b5cd4a494b7d
 
 export const assets = {
     logo,
@@ -589,4 +592,8 @@ export const laundry_list= [
       image:others,
       price: 15
   }
+<<<<<<< HEAD
 ]
+=======
+]
+>>>>>>> d1970c0cfc5ede3d5dc7a94d3777b5cd4a494b7d

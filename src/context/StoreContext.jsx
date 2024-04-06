@@ -1,6 +1,8 @@
 import { createContext,useEffect,useState } from "react";
 import { food_list } from "../assets/assets";
 import { restaurant_list } from "../assets/assets";
+import { ServiceList } from "../assets/assets";
+import { laundry_list } from "../assets/assets";
 
 export const StoreContext=createContext(null)
 
@@ -30,7 +32,6 @@ const StoreContextProvider=(props) => {
     }
     return totalAmount;
   }
-  
 
     const contextValue={
         food_list,
@@ -39,7 +40,9 @@ const StoreContextProvider=(props) => {
         addToCart,
         removeFromCart,
         getTotalCartAmount,
-        restaurant_list
+        restaurant_list,
+        ServiceList,
+        laundry_list
     }
 
     return(

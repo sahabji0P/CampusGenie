@@ -21,9 +21,11 @@ import Restaurants from "../Restaurants/Restaurants";
 
 const FoodDisplay = ({ category }) => {
   const { restaurant_list } = useContext(StoreContext);
+
   return (
     <div className="food-display" id="food-display">
       <h2>Food outlets in your campus</h2>
+
       <div className="food-display-list">
         {restaurant_list.map((item, index) => {
           if (category === "All" || category === item.category) {

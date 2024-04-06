@@ -4,6 +4,7 @@ import { assets } from "../../assets/assets";
 import { StoreContext } from "../../context/StoreContext";
 import { Link } from "react-router-dom";
 
+
 const Restaurants = ({ id, name, location, description, image }) => {
   return (
     <>

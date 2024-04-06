@@ -7,7 +7,7 @@ const Header = () => {
       <div className="header-contents">
         <h2>Order your favourite food here</h2>
         <p>Choose from a diverse menu featuring a delectable array of dishes.Whether you're craving the bold spices of Indian cuisine, the comforting familiarity of Italian pasta, or the fresh flavors of sushi, our food delivery service brings the world's finest dishes directly to you. </p>
-        <button>View Menu</button>
+        <a     href="#explore-menu">View Menu</a>
       </div>
     </div>
   )

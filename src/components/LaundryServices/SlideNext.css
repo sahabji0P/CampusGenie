@@ -1,0 +1,15 @@
+.SlideNext {
+  font-size: 1.875rem; /* Equivalent to text-3xl */
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.SlideNext:hover,
+.SlideNext:focus,
+.SlideNext:active {
+  transform: scale(1.1); /* Equivalent to active:scale-110 */
+  color: #ff9900; /* Equivalent to active:text-accent */
+}

@@ -1,0 +1,23 @@
+.ConfirmationText{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
+    gap:30px;
+}
+
+.ConfirmationText div{
+    font-size: 3rem;
+    color:tomato;
+    font-weight: bold;
+}
+
+
+.ConfirmationText span{
+    padding:15px 30px;
+    background-color: tomato;
+    color:white;
+    border-radius:20px;
+
+}

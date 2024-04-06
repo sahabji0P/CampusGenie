@@ -61,6 +61,19 @@
     right:-8px;
 }
 
+.centered-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-logo img {
+    /* Optional: You can specify the maximum width or height of the logo */
+    max-width: 200px; /* Adjust as needed */
+    max-height: 100px; /* Adjust as needed */
+  }
+  
+
 @media (max-width:1050px){
     .navbar .logo{
         width:140px;

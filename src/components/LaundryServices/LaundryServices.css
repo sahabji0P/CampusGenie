@@ -1,0 +1,32 @@
+.ServiceCardContainer{
+    display:flex;
+    flex-wrap: wrap;
+    gap:4vw;
+    margin:10px 0;
+
+}
+
+.CardSlider{
+    padding:0;
+    margin:2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.SwiperClass {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    width: 100%;
+    justify-content: center;
+    padding: 16px; /* Assuming you are using 4px grid for spacing */
+    position: relative;
+  }
+
+
+.SlidingIcons{
+    display:flex;
+    justify-content: center;
+    margin:1rem 0;
+    gap:1rem;
+}

@@ -1,0 +1,154 @@
+.pickup{
+    margin-top: 100px;
+}
+
+.pickup-items-title{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 3fr 1fr;
+    align-items: center;
+    color:grey;
+    font-size:max(1vw,12px);
+}
+
+.pickup-items-title p{
+    text-align: center;
+}
+
+.pickup-items-item{
+    margin:10px 0px;
+    color: black;
+}
+
+.pickup-items-item .Product-Type img{
+    width: 50px;
+}
+
+.pickup hr{
+    height:1px;
+    background-color: #e2e2e2;
+    border:none;
+}
+
+.pickup-items-item .cross{
+    cursor: pointer;
+}
+
+.pickup-bottom{
+    margin-top:80px;
+    display: flex;
+    justify-content:center;
+    gap:max(12vw,20px);
+}
+
+.pickup-total{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.pickup-total-details{
+    display: flex;
+    justify-content: space-between;
+    color:#555;
+}
+
+.pickup-total hr{
+    margin:10px 0px;
+}
+
+.pickup-total button{
+    border:none;
+    color:white;
+    background-color: tomato;
+    width: max(15vw,200px);
+    padding:12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pickup-promocode{
+    flex:1;
+}
+
+.pickup-promocode p{
+    color:#555;
+}
+
+.pickup-promocode-input{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#eaeaea;
+    border-radius: 4px;
+}
+
+.pickup-promocode-input input{
+    background:transparent;
+    border:none;
+    outline:none;
+    padding-left:10px;
+}
+
+.pickup-promocode-input button{
+    width: max(10vw,150px);
+    padding:12px 5px;
+    background-color: black;
+    border:none;
+    color: white;
+    border-radius: 4px;
+}
+
+.pickup-rows{
+    display:flex;
+    flex-direction:column;
+}
+
+.Product-Type{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+
+.quantity-input{
+    display: flex;
+    justify-content: center;
+}
+
+.Wash-Type-Icons{
+    display:flex;
+    gap:10px;
+    justify-content: space-evenly;
+}
+
+.Wash-Type-Icons img{
+    cursor:pointer;
+    width:50px;
+}
+
+.Wash-Type-Icons img:hover{
+    background-color: rgb(165, 165, 246);
+    border-radius:10px;
+    padding:10px;
+}
+
+
+.pickup-bottom button{
+    border:none;
+    color:white;
+    background-color: tomato;
+    width: max(15vw,200px);
+    padding:12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width:750px){
+    .pickup-bottom{
+        flex-direction: column-reverse;
+    }
+    .pickup-promocode{
+        justify-content: start;
+    }
+}

@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.foodPage{
+    display: flex;
+    gap:5vw;
+    padding:15px;
+    width:100%;
+    margin:20px auto;
+    border-radius:15px;
+    box-shadow:0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation:fadeIn 1s;
+    cursor:pointer;
+}
+
+.foodPage .foodImg img{
+    width: 15vw;
+    border-radius: 20px;
+}
+
+.foodPage .foodText{
+    display: flex;
+    flex-direction: column;
+    gap:3vw;
+    justify-content: center;
+}
+
+.laundryPage{
+    display: flex;
+    gap:5vw;
+    padding:15px;
+    width:100%;
+    margin:20px auto;
+    border-radius:15px;
+    box-shadow:0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation:fadeIn 1s;
+    cursor:pointer;
+}
+
+.laundryPage .laundryImg img{
+    width:15vw;
+    border-radius: 20px;
+}
+
+
+.laundryPage .laundryText{
+    display: flex;
+    flex-direction: column;
+    gap:3vw;
+    justify-content: center;
+}

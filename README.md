@@ -1,25 +1,15 @@
-# CampusEase
+# CampusGenie
 
-CampusEase is a web platform designed to simplify campus life for college students by providing easy access to essential campus utilities. From ordering food from on-campus outlets to managing laundry services, CampusEase aims to streamline everyday tasks and save students time and hassle.
+Welcome to the CampusGenie! This website serves as the online presence for CampusGenie, your go-to solution for campus utility services. Whether you're a college student looking for convenient food delivery options or in need of hassle-free laundry services, CampusGenie has you covered.
+
+## About CampusGenie
+
+CampusGenie is a specialized platform designed to simplify college life by offering convenient access to essential utilities such as food delivery and laundry services. Our user-friendly interface and innovative features make it easy for students to manage their busy academic schedules while enjoying a seamless campus experience.
 
 ## Features
 
-- **Food Ordering:** Easily place orders from on-campus outlets with just a few clicks. Enjoy your favorite meals delivered right to your doorstep.
-- **Laundry Management:** Track the progress of your laundry and opt for convenient pickup and delivery services.
-- **Predictive Analysis:** Provide valuable insights to outlet owners with predictive analysis tools, enabling data-driven decision-making and improved efficiency.
-- **Personalized Recommendations:** Receive personalized recommendations for food orders based on your preferences, enhancing your user experience.
-- **Eco-Friendly Options:** Choose eco-friendly packaging options and contribute to sustainability efforts while earning rewards.
+- **Food Delivery Services**: Order meals from campus dining halls, local eateries, and food vendors directly through CampusGenie. Enjoy a wide variety of options, including healthy meals, snacks, and beverages, delivered to your dorm or designated pickup location.
 
-## Why CampusEase?
+- **Laundry Services**: Schedule laundry pickups and drop-offs with ease using CampusGenie's integrated laundry service feature. Say goodbye to laundry day stress and let CampusGenie handle the chore for you, ensuring your clothes are cleaned and ready when you need them.
 
-- **Convenience:** Say goodbye to long lines and waiting times. With CampusEase, all campus utilities are just a tap away.
-- **Efficiency:** Save time and streamline your daily tasks with our intuitive platform.
-- **Enhanced Experience:** Enjoy personalized recommendations and valuable insights tailored to your needs.
-- **Sustainability:** Join us in promoting eco-friendly practices and making a positive impact on the environment.
-
-## Getting Started
-
-To get started with CampusEase, follow these steps:
-
-1. Install dependencies: `npm install`
-2. Start the development server: `npm start`
+- **Utility Services Directory**: Access a comprehensive directory of utility services available on campus, including printing and photocopying, bike rentals, textbook lending libraries, and more. Find the services you need quickly and conveniently, all in one place.

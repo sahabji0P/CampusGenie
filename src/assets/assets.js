@@ -1,5 +1,5 @@
 import basket_icon from './basket_icon.png'
-import logo from './logo.png'
+import logo from './logo.jpeg'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
@@ -62,6 +62,22 @@ import fooddel from './fooddel.png'
 import SouthernStories from './SouthernStories.webp'
 import MaggiHotspot from './MaggiHotspot.jpg'
 import TheUrbanKitchen from './TheUrbanKitchen.png'
+import washer from './washer.png'
+import towel from './towel.png'
+import detergent from './detergent.png'
+import iron from './iron.png'
+import others from './others.webp'
+import joggers from './joggers.png'
+import shorts from './shorts.webp'
+import jeans from './jeans.jpg'
+import trousers from './trousers.png'
+import tshirt from './tshirt.webp'
+import shirt from './shirt.jpeg'
+import KathiJunction from './KathiJunction.jpeg'
+import ChaiOk from './ChaiOk.jpeg'
+import quench from './quench.jpeg'
+
+
 
 export const assets = {
     logo,
@@ -84,7 +100,18 @@ export const assets = {
     bag_icon,
     parcel_icon,
     laundry,
-    fooddel
+    fooddel,
+    washer,
+    iron,
+    detergent,
+    towel,
+    others,
+    joggers,
+    shorts,
+    jeans,
+    trousers,
+    tshirt,
+    shirt
 }
 
 // export const menu_list = [
@@ -159,7 +186,7 @@ export const restaurant_list = [
     {
         _id: "2",
         name: "The Kathi Junction",
-        image: food_1,
+        image: KathiJunction,
         location: "Near M-block",
         description: "The Kathi Junction offers a fusion of Chinese delights. Embark on a flavorful adventure with our delectable dishes crafted to tantalize your palate. From savory stir-fries to aromatic noodles, experience the essence of Chinese cuisine at The Kathi Junction.",
         category: "Chinese"
@@ -167,7 +194,7 @@ export const restaurant_list = [
     {
         _id: "3",
         name: "Chai Ok Please",
-        image: food_1,
+        image:ChaiOk,
         location: "Near M-block",
         description: "Chai Ok Please, conveniently located near M-block, is your destination for mouthwatering sandwiches. Indulge in a variety of flavorful fillings and freshly brewed chai. Whether you crave classic combinations or innovative twists, satisfy your sandwich cravings at Chai Ok Please.",
         category: "Sandwiches"
@@ -191,247 +218,12 @@ export const restaurant_list = [
     {
         _id: "6",
         name: "Quench",
-        image: food_1,
+        image: quench,
         location: "Sports Complex",
         description: "Quench is your go-to spot for satisfying sandwiches. Enjoy a diverse selection of freshly made creations, perfect for refueling after a game or a workout. From classic combinations to innovative twists, quench your hunger with our delicious sandwiches at Quench.",
         category: "Sandwiches"
     }
 ]
-
-
-// export const food_list = [
-//     {
-//         _id: "1",
-//         name: "Greek salad",
-//         image: food_1,
-//         price: 12,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Salad"
-//     },
-//     {
-//         _id: "2",
-//         name: "Veg salad",
-//         image: food_2,
-//         price: 18,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Salad"
-//     }, {
-//         _id: "3",
-//         name: "Clover Salad",
-//         image: food_3,
-//         price: 16,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Salad"
-//     }, {
-//         _id: "4",
-//         name: "Chicken Salad",
-//         image: food_4,
-//         price: 24,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Salad"
-//     }, {
-//         _id: "5",
-//         name: "Lasagna Rolls",
-//         image: food_5,
-//         price: 14,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Rolls"
-//     }, {
-//         _id: "6",
-//         name: "Peri Peri Rolls",
-//         image: food_6,
-//         price: 12,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Rolls"
-//     }, {
-//         _id: "7",
-//         name: "Chicken Rolls",
-//         image: food_7,
-//         price: 20,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Rolls"
-//     }, {
-//         _id: "8",
-//         name: "Veg Rolls",
-//         image: food_8,
-//         price: 15,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Rolls"
-//     }, {
-//         _id: "9",
-//         name: "Ripple Ice Cream",
-//         image: food_9,
-//         price: 14,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Deserts"
-//     }, {
-//         _id: "10",
-//         name: "Fruit Ice Cream",
-//         image: food_10,
-//         price: 22,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Deserts"
-//     }, {
-//         _id: "11",
-//         name: "Jar Ice Cream",
-//         image: food_11,
-//         price: 10,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Deserts"
-//     }, {
-//         _id: "12",
-//         name: "Vanilla Ice Cream",
-//         image: food_12,
-//         price: 12,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Deserts"
-//     },
-//     {
-//         _id: "13",
-//         name: "Chicken Sandwich",
-//         image: food_13,
-//         price: 12,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Sandwich"
-//     },
-//     {
-//         _id: "14",
-//         name: "Vegan Sandwich",
-//         image: food_14,
-//         price: 18,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Sandwich"
-//     }, {
-//         _id: "15",
-//         name: "Grilled Sandwich",
-//         image: food_15,
-//         price: 16,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Sandwich"
-//     }, {
-//         _id: "16",
-//         name: "Bread Sandwich",
-//         image: food_16,
-//         price: 24,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Sandwich"
-//     }, {
-//         _id: "17",
-//         name: "Cup Cake",
-//         image: food_17,
-//         price: 14,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Cake"
-//     }, {
-//         _id: "18",
-//         name: "Vegan Cake",
-//         image: food_18,
-//         price: 12,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Cake"
-//     }, {
-//         _id: "19",
-//         name: "Butterscotch Cake",
-//         image: food_19,
-//         price: 20,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Cake"
-//     }, {
-//         _id: "20",
-//         name: "Sliced Cake",
-//         image: food_20,
-//         price: 15,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Cake"
-//     }, {
-//         _id: "21",
-//         name: "Garlic Mushroom ",
-//         image: food_21,
-//         price: 14,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Pure Veg"
-//     }, {
-//         _id: "22",
-//         name: "Fried Cauliflower",
-//         image: food_22,
-//         price: 22,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Pure Veg"
-//     }, {
-//         _id: "23",
-//         name: "Mix Veg Pulao",
-//         image: food_23,
-//         price: 10,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Pure Veg"
-//     }, {
-//         _id: "24",
-//         name: "Rice Zucchini",
-//         image: food_24,
-//         price: 12,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Pure Veg"
-//     },
-//     {
-//         _id: "25",
-//         name: "Cheese Pasta",
-//         image: food_25,
-//         price: 12,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Pasta"
-//     },
-//     {
-//         _id: "26",
-//         name: "Tomato Pasta",
-//         image: food_26,
-//         price: 18,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Pasta"
-//     }, {
-//         _id: "27",
-//         name: "Creamy Pasta",
-//         image: food_27,
-//         price: 16,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Pasta"
-//     }, {
-//         _id: "28",
-//         name: "Chicken Pasta",
-//         image: food_28,
-//         price: 24,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Pasta"
-//     }, {
-//         _id: "29",
-//         name: "Buttter Noodles",
-//         image: food_29,
-//         price: 14,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Noodles"
-//     }, {
-//         _id: "30",
-//         name: "Veg Noodles",
-//         image: food_30,
-//         price: 12,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Noodles"
-//     }, {
-//         _id: "31",
-//         name: "Somen Noodles",
-//         image: food_31,
-//         price: 20,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Noodles"
-//     }, {
-//         _id: "32",
-//         name: "Cooked Noodles",
-//         image: food_32,
-//         price: 15,
-//         description: "Food provides essential nutrients for overall health and well-being",
-//         category: "Noodles"
-//     }
-// ]
-
 
 
 export const food_list = [
@@ -442,7 +234,7 @@ export const food_list = [
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad",
-        RestaurantID: "1"
+        RestaurantID: "1",
     },
     {
         _id: "2",
@@ -722,4 +514,79 @@ export const food_list = [
         category: "Noodles",
         RestaurantID: "6"
       }
+]
+
+export const ServiceList = [
+  {
+    image: 'https://aspleydrycleaners.com.au/wp-content/uploads/2021/10/Png-Image-Price-1.png',
+    title: 'Dry Cleaning',
+    description: 'Our dry cleaning service offers a convenient, professional way to get your clothes clean and looking fresh.'
+  },
+  {
+    image: 'https://www.ingredientsmatterclean.com/cdn/shop/articles/stain-removal_900x.jpg?v=1627406931',
+    title: 'Stain Removal',
+    description: 'Our stain removal service quickly and effectively removes the toughest stains from your clothes.'
+  },
+  {
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTldDRSum3fqXoWMTyCwvRvjf7iHXuzk4A-zA&usqp=CAU',
+    title: 'Ironing and Pressing',
+    description: 'We offer professional ironing and pressing services to give your garments that crisp, clean look.'
+  },
+  {
+    image: 'https://omahalacecleaners.com/wp-content/uploads/2016/10/alterationblogimage-1024x717.jpg',
+    title: 'Garment Alterations',
+    description: 'We offer quick and accurate garment alterations to make sure your clothes fit perfectly.'
+  },
+  {
+    image: 'https://img.freepik.com/premium-photo/portrait-laundry-worker-background-clothes-hangers-dry-cleaning_154092-5785.jpg',
+    title: 'Folding and Packaging',
+    description: 'We offer fast and convenient laundry folding and packaging services for your convenience.'
+  }
+];
+
+
+
+export const laundry_list= [
+  {
+      _id: "1",
+      name: "Shirt",
+      image: shirt,
+      price: 5
+  },
+  {
+      _id: "2",
+      name: "T-Shirt",
+      image: tshirt,
+      price: 5
+  },
+  {
+      _id: "3",
+      name: "Trousers",
+      image:trousers,
+      price: 10
+  },
+  {
+      _id: "4",
+      name: "Jeans",
+      image:jeans,
+      price: 10
+  },
+  {
+      _id: "5",
+      name: "Shorts",
+      image:shorts,
+      price: 5
+  },
+  {
+      _id: "6",
+      name: "Joggers",
+      image: joggers,
+      price: 20
+  },
+  {
+      _id: "7",
+      name: "Others",
+      image:others,
+      price: 15
+  }
 ]

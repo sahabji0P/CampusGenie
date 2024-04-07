@@ -73,6 +73,8 @@ const PlaceOrder = () => {
     }
   };
 
+  
+
   return (
     <form className="place-order">
       <div className="place-order-left">
@@ -88,7 +90,7 @@ const PlaceOrder = () => {
           <input
             type="text"
             id="lastName"
-            placeholder="Last Name"
+            placeholder="Last Name"ast
             value={orderDetails.lastName}
             onChange={handleChange}
           />

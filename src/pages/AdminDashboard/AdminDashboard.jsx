@@ -2,6 +2,7 @@ import React from "react";
 import "./AdminDashboard.css";
 import { useState, useEffect } from "react";
 
+
 const AdminDashboard = () => {
   // State to store fetched data
   const [orders, setOrders] = useState([]);
@@ -26,6 +27,35 @@ const AdminDashboard = () => {
     console.log(orders);
   }, []);
 
+  // Function to handle status change
+  const handleStatusChange = async (e, orderId) => {
+    const newStatus = e.target.value;
+    try {
+      const response = await fetch(
+        `http://localhost:3000/api/orders/${orderId}`,
+        {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ status: newStatus }),
+        }
+      );
+      if (response.ok) {
+        // Update the local orders state with the new status
+        setOrders((prevOrders) =>
+          prevOrders.map((order) =>
+            order._id === orderId ? { ...order, status: newStatus } : order
+          )
+        );
+      } else {
+        console.error("Failed to update order status");
+      }
+    } catch (error) {
+      console.error("Error updating order status:", error);
+    }
+  };
+
   return (
     <div>
       <div className="title">
@@ -36,6 +66,7 @@ const AdminDashboard = () => {
         <p>Order-ID</p>
         <p>User Name</p>
         <p>Order Value</p>
+        <p>Order Status</p>
         <p>Remove</p>
       </div>
       <hr />
@@ -46,6 +77,18 @@ const AdminDashboard = () => {
             <p>{order._id}</p>
             <p>{order.firstName}</p>
             <p>{order.total}</p>
+            <p>
+              <select
+                value={order.status || "Placed"}
+                onChange={(e) => handleStatusChange(e, order._id)}
+              >
+                <option value="Placed">Placed</option>
+                <option value="Paid">Paid</option>
+                <option value="In Progress">In Progress</option>
+                <option value="Out for Delivery">Out for Delivery</option>
+                <option value="Delivered">Delivered</option>
+              </select>
+            </p>
             <p className="remove-button">x</p>
           </li>
         ))}

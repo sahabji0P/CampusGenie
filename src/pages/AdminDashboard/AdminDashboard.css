@@ -19,7 +19,7 @@
 
 .dashboard-title {
   display: grid;
-  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr;
   align-items: center;
   color: black;
   font-size: max(1vw, 12px);
@@ -28,7 +28,7 @@
 
 .dashboard-items-item {
   display: grid;
-  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr;
   border-radius: 10px;
   align-items: center;
   font-size: max(1vw, 12px);

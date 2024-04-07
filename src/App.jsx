@@ -10,7 +10,7 @@ import Laundry from "./pages/Laundry/Laundry";
 import Food from "./pages/Food/Food";
 import Pickup from "./pages/Laundry/Pickup";
 import OrderPlaced from "./pages/PlaceOrder/orderPlaced";
-// import AdminDashboard from "./pages/AdminDashboard/AdminDashboard";
+import AdminDashboard from "./pages/AdminDashboard/AdminDashboard";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const App = () => {
